@@ -1,0 +1,362 @@
+{
+  "translation-revision-date": "2019-09-12 01:30:00+0000",
+  "generator": "GlotPress\/2.4.0-alpha",
+  "domain": "advanced-columns-block",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "advanced-columns-block",
+        "plural-forms": "nplurals=1; plural=0;",
+        "lang": "ja_JP"
+      },
+      "None": [
+        "なし"
+      ],
+      "Tilt": [
+        "傾き"
+      ],
+      "Mountains": [
+        "山"
+      ],
+      "Wave Brush": [
+        "波ブラシ"
+      ],
+      "Waves": [
+        "波"
+      ],
+      "Triangle": [
+        "三角"
+      ],
+      "Type": [
+        "種類"
+      ],
+      "Color": [
+        "色"
+      ],
+      "Opacity": [
+        "不透明度"
+      ],
+      "Width": [
+        "幅"
+      ],
+      "Height": [
+        "高さ"
+      ],
+      "Flip": [
+        "反転"
+      ],
+      "Bring To Front": [
+        "前面に移動する"
+      ],
+      "Vertically Top": [
+        "上揃え"
+      ],
+      "Vertically Middle": [
+        "上下中央揃え"
+      ],
+      "Vertically Bottom": [
+        "下揃え"
+      ],
+      "Layout": [
+        "レイアウト"
+      ],
+      "Columns": [
+        "列数"
+      ],
+      "Stack on": [
+        "積み重ね"
+      ],
+      "Mobile": [
+        "モバイル"
+      ],
+      "Note: Choose on what breakpoint the columns will stack.": [
+        "注: 列が積み重ね表示になる条件(ブレークポイント)を選択します。"
+      ],
+      "Container Width": [
+        "コンテナーの幅"
+      ],
+      "Theme Container Width": [
+        "テーマのコンテナ幅"
+      ],
+      "Custom": [
+        "カスタム"
+      ],
+      "Size Type": [
+        "サイズ種類"
+      ],
+      "Inner Width": [
+        "内幅"
+      ],
+      "Column Gap": [
+        "列の余白"
+      ],
+      "Default (10px)": [
+        "標準 (10px)"
+      ],
+      "No Gap (0px)": [
+        "なし (0px)"
+      ],
+      "Narrow (5px)": [
+        "狭い (5px)"
+      ],
+      "Extended (15px)": [
+        "少し広い (15px)"
+      ],
+      "Wide (20px)": [
+        "広い (20px)"
+      ],
+      "Wider (30px)": [
+        "より広い (30px)"
+      ],
+      "Note: The individual Column Gap can be managed from Column Settings.": [
+        "注: 個々の列の余白は列設定から管理できます。"
+      ],
+      "HTML Tag": [
+        "HTML タグ"
+      ],
+      "div": [],
+      "header": [],
+      "footer": [],
+      "main": [],
+      "article": [],
+      "section": [],
+      "aside": [],
+      "nav": [],
+      "Reverse Columns (Mobile)": [
+        "列を反転 (モバイル)"
+      ],
+      "Spacing": [
+        "余白"
+      ],
+      "Padding Mobile": [
+        "内側余白(モバイル)"
+      ],
+      "Padding": [
+        "内側余白"
+      ],
+      "Margin Mobile": [
+        "外側余白(モバイル)"
+      ],
+      "Margin": [
+        "外側余白"
+      ],
+      "Background": [
+        "背景"
+      ],
+      "Background Type": [
+        "背景の種類"
+      ],
+      "Gradient": [
+        "グラデーション"
+      ],
+      "Image": [
+        "画像"
+      ],
+      "Video": [
+        "動画"
+      ],
+      "Background Color": [
+        "背景色"
+      ],
+      "Background Image": [
+        "背景画像"
+      ],
+      "Select Background Image": [
+        "背景画像を選択"
+      ],
+      "Replace Image": [
+        "画像を変更"
+      ],
+      "Remove Image": [
+        "画像を削除"
+      ],
+      "Image Position": [
+        "画像の位置"
+      ],
+      "Top Left": [
+        "上揃え/左揃え"
+      ],
+      "Top Center": [
+        "上揃え/中央揃え"
+      ],
+      "Top Right": [
+        "上揃え/右揃え"
+      ],
+      "Center Left": [
+        "上下中央揃え/左揃え"
+      ],
+      "Center Center": [
+        "上下中央揃え/中央揃え"
+      ],
+      "Center Right": [
+        "上下中央揃え/右揃え"
+      ],
+      "Bottom Left": [
+        "下揃え/左揃え"
+      ],
+      "Bottom Center": [
+        "下揃え/中央揃え"
+      ],
+      "Bottom Right": [
+        "下揃え/右揃え"
+      ],
+      "Attachment": [
+        "表示方法"
+      ],
+      "Fixed": [
+        "固定"
+      ],
+      "Scroll": [
+        "スクロール"
+      ],
+      "Repeat": [
+        "繰り返し"
+      ],
+      "No Repeat": [
+        "繰り返しなし"
+      ],
+      "Repeat-x": [
+        "横方向に繰り返し"
+      ],
+      "Repeat-y": [
+        "縦方向に繰り返し"
+      ],
+      "Size": [
+        "サイズ"
+      ],
+      "Auto": [
+        "自動"
+      ],
+      "Cover": [
+        "覆う"
+      ],
+      "Contain": [
+        "内包"
+      ],
+      "Image Overlay Color": [
+        "画像オーバーレイ色"
+      ],
+      "Color 1": [
+        "色 1"
+      ],
+      "Location 1": [
+        "位置 1"
+      ],
+      "Color 2": [
+        "色 2"
+      ],
+      "Location 2": [
+        "位置 2"
+      ],
+      "Linear": [
+        "線形"
+      ],
+      "Radial": [
+        "放射状"
+      ],
+      "Angle": [
+        "角度"
+      ],
+      "Background Video": [
+        "背景動画"
+      ],
+      "Select Background Video": [
+        "背景動画を選択"
+      ],
+      "Replace Video": [
+        "動画を変更"
+      ],
+      "Remove Video": [
+        "動画を削除"
+      ],
+      "Video Overlay Color": [
+        "ビデオオーバーレイ色"
+      ],
+      "Shape Dividers": [
+        "仕切り形状"
+      ],
+      "Top": [
+        "上"
+      ],
+      "Bottom": [
+        "下"
+      ],
+      "Border": [
+        "枠線"
+      ],
+      "Border Style": [
+        "枠線のスタイル"
+      ],
+      "Solid": [
+        "実線"
+      ],
+      "Dotted": [
+        "点線"
+      ],
+      "Dashed": [
+        "破線"
+      ],
+      "Double": [
+        "二重線"
+      ],
+      "Groove": [
+        "凹線"
+      ],
+      "Inset": [
+        "はめ込み"
+      ],
+      "Outset": [
+        "出っ張り"
+      ],
+      "Ridge": [
+        "凸線"
+      ],
+      "Border Width": [
+        "枠線の幅"
+      ],
+      "Border Radius": [
+        "角の丸め"
+      ],
+      "Border Color": [
+        "枠線の色"
+      ],
+      "Content Width (%)": [
+        "コンテンツの幅 (%)"
+      ],
+      "Content Alignment":[
+        "コンテンツの配置"
+      ],
+      "Left": [
+        "左揃え"
+      ],
+      "Center": [
+        "中央揃え"
+      ],
+      "Right":[
+        "右揃え"
+      ],
+      "Image Overlay Type": [
+        "画像オーバーレイ種類"
+      ],
+      "Color Settings": [
+        "色設定"
+      ],
+      "Advanced Columns": [
+        "アドバンスドカラム"
+      ],
+      "This block gives you advanced options to insert a number of columns within a single row.": [
+        "このブロックは、単一の行に複数の列を挿入するための高度なオプションを提供します。"
+      ],
+      "Advanced Column": [
+        "アドバンスドセル"
+      ],
+      "This block is an immediate child of Advanced Columns.": [
+        "このブロックはアドバンスドカラムの直接の子要素です。"
+      ]
+    }
+  },
+  "comment": {
+    "reference": "wp-content\/plugins\/advanced-columns-block\/block\/build\/index.js"
+  }
+}
+
