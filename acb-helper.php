@@ -122,8 +122,8 @@ class Acb_Helper {
 		return $desktop . $mob_styling_css;
 	}
 
-	private function _generate_stylesheet( WP_Post $this_post ) {
-		if ( ! isset( $this_post->ID ) || ! has_blocks( $this_post->ID ) || ! isset( $this_post->post_content ) ) {
+	private function _generate_stylesheet( $this_post ) {
+		if ( ! $this_post instanceof WP_Post || ! isset( $this_post->ID ) || ! has_blocks( $this_post->ID ) || ! isset( $this_post->post_content ) ) {
 			return;
 		}
 
