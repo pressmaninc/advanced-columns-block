@@ -76,7 +76,7 @@ export default props => {
 
 	const
 		selectors = {
-			':before': InlineStyles( props ),
+			[((props.isSave) ? ' .acb-column__overlay' : '::before')]: InlineStyles( props ),
 			'': style
 		},
 		mobile_selectors = {
@@ -93,14 +93,14 @@ export default props => {
 		};
 
 	if ( '' !== colWidth && 0 !== colWidth ) {
-		selectors['.editor-block-list__block'] = {width: `${colWidth}%`};
+		selectors[((props.isSave)? `#acb-column-${props.attributes.block_id}`: '.editor-block-list__block')] = {width: `${colWidth}%`};
 	}
 
 	if ( '' !== colWidthMobile && 0 !== colWidthMobile ) {
-		mobile_selectors['.editor-block-list__block'] = {width: `${colWidthMobile}%`};
+		mobile_selectors[((props.isSave)? `#acb-column-${props.attributes.block_id}`: '.editor-block-list__block')] = {width: `${colWidthMobile}%`};
 	}
 
-	const id = `#wpwrap .edit-post-visual-editor #block-${props.clientId}`;
+	const id = (props.isSave) ? `#acb-column-${props.attributes.block_id}` :`#wpwrap .edit-post-visual-editor #block-${props.clientId}`;
 
 	return GenerateCss( selectors, id ) +
 	       GenerateCss( mobile_selectors, id, true, 'mobile' );
