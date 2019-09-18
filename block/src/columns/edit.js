@@ -3,11 +3,11 @@ import {Component, Fragment} from '@wordpress/element';
 import {withNotices,} from '@wordpress/components';
 
 import classnames from 'classnames';
-import memoize from 'memize'
-import times from 'lodash/times'
+import memoize from 'memize';
+import times from 'lodash/times';
 
-import Styling from './styling'
-import Shapes from './shapes'
+import Styling from './styling';
+import Shapes from './shapes';
 
 import {SpacingPanel, BorderPanel} from '../common/components/controls/inspector';
 import {VerticalBottom, VerticalMiddle, VerticalTop} from './components/controls/block';
