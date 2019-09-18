@@ -262,7 +262,7 @@ class ACBColumns extends Component {
 						`acb-columns__stack-${stack}`,
 						`acb-columns__valign-${vAlign}`,
 						`acb-columns__gap-${columnGap}`,
-						`align${align}`,
+						( ( 'undefined' !== typeof align ) ? `align${align}` : '' ),
 						reverse_mobile
 					)}
 					id={`acb-columns-${this.props.clientId}`}
