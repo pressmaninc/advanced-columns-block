@@ -8,7 +8,7 @@ export default {
 	},
 	align: {
 		type: 'string',
-		default: 'center',
+		default: '',
 	},
 	vAlign: {
 		type: 'string',

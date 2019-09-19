@@ -167,7 +167,7 @@ class ACBColumns extends Component {
 			<Fragment>
 				{/* ブロックコントロール(ブロック上部のやつ) */}
 				<BlockControls>
-					<BlockAlignmentToolbar value={align} onChange={value => setAttributes( {align: value} )} controls={['wide', 'full']}/>
+					<BlockAlignmentToolbar value={align} onChange={value => setAttributes( {align: ( 'undefined' !== typeof value ) ? value : ''} )} controls={['wide', 'full']}/>
 					<VerticalTop setAttributes={setAttributes} vAlign={vAlign}/>
 					<VerticalMiddle setAttributes={setAttributes} vAlign={vAlign}/>
 					<VerticalBottom setAttributes={setAttributes} vAlign={vAlign}/>
@@ -262,7 +262,7 @@ class ACBColumns extends Component {
 						`acb-columns__stack-${stack}`,
 						`acb-columns__valign-${vAlign}`,
 						`acb-columns__gap-${columnGap}`,
-						( ( 'undefined' !== typeof align ) ? `align${align}` : '' ),
+						( ( align ) ? `align${align}` : '' ),
 						reverse_mobile
 					)}
 					id={`acb-columns-${this.props.clientId}`}
