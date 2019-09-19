@@ -122,7 +122,7 @@ export default class ACBColumnEdit extends Component {
 
 		const
 			active = ( isSelected ) ? 'active' : 'not-active',
-			align_class = ( 'center' === align ) ? '' : `acb-column__align-${align}`,
+			align_class = ( '' === align ) ? '' : `acb-column__align-${align}`,
 			align_class_mobile = ( '' === alignMobile ) ? '' : `acb-column__align-mobile-${alignMobile}`;
 
 		return (

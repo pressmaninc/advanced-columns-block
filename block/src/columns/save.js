@@ -38,7 +38,7 @@ export default props => {
 					`acb-columns__stack-${stack}`,
 					`acb-columns__valign-${vAlign}`,
 					`acb-columns__gap-${columnGap}`,
-					( ( 'undefined' !== typeof align ) ? `align${align}` : '' ),
+					( ( align ) ? `align${align}` : '' ),
 					( ( reverseMobile ) ? 'acb-columns__reverse-mobile' : '' )
 				)}
 				id={`acb-columns-${block_id}`}
