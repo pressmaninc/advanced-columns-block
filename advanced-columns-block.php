@@ -1,16 +1,14 @@
 <?php
 
-
 /**
  * Plugin Name: Advanced Columns Block
  * Description: This plugin is advanced columns that extracted from UAG
- * Version: 0.2.1
+ * Version: 0.2.2
  * Author: pmyosuke
  */
 
 class Advanced_Columns_Block {
 	private static $instance;
-
 
 	private function __construct() {
 		add_action( 'init', [ $this, 'register_blocks' ] );
